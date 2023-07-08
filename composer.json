@@ -1,0 +1,17 @@
+{
+    "name": "aw/spryker-autowiring",
+    "description": "This package enables autowiring for Spryker",
+    "type": "library",
+    "require": {
+        "php": ">=8.0",
+        "php-di/php-di": "dev-master",
+        "spryker/kernel": "^3.73"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "AW\\": "src/AW/"
+        }
+    },
+    "minimum-stability": "dev"
+}
