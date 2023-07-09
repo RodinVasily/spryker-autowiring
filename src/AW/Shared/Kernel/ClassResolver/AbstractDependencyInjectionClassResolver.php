@@ -82,7 +82,7 @@ abstract class AbstractDependencyInjectionClassResolver
                 $classInfo = new ClassInfo();
                 $classInfo->setClass($entry->getName());
 
-                $module = mb_strtolower($classInfo->getModule());
+                $module = lcfirst($classInfo->getModule());
 
                 return $locator->$module()->$locatorMethod();
             };
