@@ -1,7 +1,6 @@
 {
-    "name": "aw/spryker-autowiring",
+    "name": "hackweekender-aw/spryker-autowiring",
     "description": "This package enables autowiring for Spryker",
-    "type": "library",
     "require": {
         "php": ">=8.0",
         "php-di/php-di": "dev-master",
